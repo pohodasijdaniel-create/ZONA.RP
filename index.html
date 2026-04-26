@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>ZONA RP</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: url("bg.png") no-repeat center center/cover;
+    color: white;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.7);
+    min-height: 100vh;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+.logo {
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: red;
+}
+
+/* кнопка */
+.btn {
+    background: orange;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+}
+
+/* центр */
+.center {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.center h1 {
+    font-size: 60px;
+}
+
+.red {
+    color: red;
+}
+
+.server {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.online {
+    color: #00ff88;
+}
+
+/* новини */
+.news {
+    margin-top: 100px;
+    padding: 40px;
+    text-align: center;
+}
+
+.card {
+    background: rgba(0,0,0,0.6);
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.date {
+    color: #00ff88;
+    margin-bottom: 10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="overlay">
+
+<header>
+    <div class="logo">ZONA RP</div>
+
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="forum.html">Форум</a> <!-- ОТ ТУТ ПЕРЕХІД -->
+        <a href="#">Магазин</a>
+    </nav>
+
+    <a href="#" class="btn">КАБІНЕТ</a>
+</header>
+
+<div class="center">
+    <h1>ОНЛАЙН ГРА <span class="red">ПРО УКРАЇНУ</span></h1>
+    <p>ZONA RP — сучасний RolePlay проект</p>
+
+    <div class="server">
+        Центральна Україна — <span class="online">0 / 900</span>
+    </div>
+</div>
+
+<div class="news">
+    <h2>НОВИНИ ПРОЕКТУ</h2>
+
+    <div class="card">
+        <div class="date">25.04.2026</div>
+        <div>Діскорд створено</div>
+    </div>
+
+    <div class="card">
+        <div class="date">26.04.2026</div>
+        <div>Лаунчер зроблено</div>
+    </div>
+
+    <div class="card">
+        <div class="date">26.04.2026</div>
+        <div>Проект в розробці</div>
+    </div>
+
+</div>
+
+</div>
+
+</body>
+</html>
+
+</body>
+</html>
